@@ -23,9 +23,9 @@ label {
 
 input {
     border-radius: 15%;
-    background-color: #003174;
-    color: white;
-    border: none;
+    background-color: transparent; /* Fundo transparente */
+    color: #003174; /* Cor da fonte igual à dos títulos */
+    border: 2px solid #003174; /* Borda de 2px */
     padding: 10px;
     width: 100%; /* Largura total por padrão */
     max-width: 150px;
@@ -64,10 +64,12 @@ input {
     label, input {
         display: block;
         width: 100%; /* Faz os labels e inputs ocupar toda a largura disponível */
+        margin: 0 auto; /* Centraliza os inputs */
     }
 
     input {
         padding: 8px;
+        margin-bottom: 15px;
     }
 
     #resultados, #exameFinalHeader, #exameFinal {
