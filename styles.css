@@ -22,7 +22,6 @@ label {
 }
 
 input {
-    border-radius: 15%;
     background-color: transparent; /* Fundo transparente */
     color: #003174; /* Cor da fonte igual à dos títulos */
     border: 2px solid #003174; /* Borda de 2px */
